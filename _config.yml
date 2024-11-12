@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Prannoy Namala / Site Title"
+title                    : "Prannoy Namala"
 title_separator          : "-"
 name                     : &name "Prannoy Namala"
 description              : &description "personal description"
@@ -25,7 +25,7 @@ author:
   name             : "Prannoy Namala"
   pronouns         : # example: "she/her"  
   bio              : "Making Robots play a game of tag"
-  location         : "Earth"
+  location         : "College Park, MD"
   employer         : "University of Maryland, College Park"
   uri              : # URL
   email            : "pnamala@umd.edu" 
