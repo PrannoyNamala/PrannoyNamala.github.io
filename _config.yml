@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Prannoy Namala"
 title_separator          : "-"
 name                     : &name "Prannoy Namala"
-description              : &description "personal description"
+description              : &description "PhD Candidate at University of Maryland, College Park -  Multi-Agent Reinforcement Learning Researcher."
 url                      : https://PrannoyNamala.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "PrannoyNamala/PrannoyNamala.github.io"
@@ -28,7 +28,7 @@ author:
   location         : "College Park, MD"
   employer         : "University of Maryland, College Park"
   uri              : # URL
-  email            : "pnamala@umd.edu" 
+  email            : "prannoynhk@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
