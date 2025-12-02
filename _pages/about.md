@@ -9,7 +9,7 @@ redirect_from:
 
 About Me
 ======
-I am a PhD candidate in the [Department of Mechanical Engineering](https://enme.umd.edu/) at the [University of Maryland, College Park](umd.edu) advised by [Dr. Jeffrey W. Herrmann](https://sites.google.com/cua.edu/herrmann/personal). My research focusses on metareasoning for multi-agent reach-avoid games -- developing systems that can choose the best strategy in real time based on agent configuration, game structure, and expected outcomes.
+I am a PhD candidate in the [Department of Mechanical Engineering](https://enme.umd.edu/) at the [University of Maryland, College Park](umd.edu) advised by [Dr. Jeffrey W. Herrmann](https://sites.google.com/cua.edu/herrmann/personal). My research focuses on metareasoning approaches for multi-agent reach-avoid games, where I develop models that can choose the best strategy in real time based on agent configuration, game structure, and expected outcomes.
 
 I work at the intersection of optimal control, game theory, reinforcement learning, and multi-agent systems. My goal is to design decision-making frameworks that allow teams of robots to coordinate intelligently in dynamic, adversarial environments.
 
