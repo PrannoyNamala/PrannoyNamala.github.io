@@ -5,59 +5,54 @@ permalink: /projects/
 author_profile: true
 ---
 
-<p>Below is a selection of my current and past work. Each project links to its own page.<br>
-<em>(This page is under active construction.)</em></p>
+<p>
+Below is an organized collection of my projects including my research work.<br>
+<em>(This page is under active construction.)</em>
+</p>
 
 <hr/>
 
-<h2>🔥 Featured Research</h2>
-<ul>
-  <li><a href="/portfolio/meta_policy_pe/">Meta-Policy for Multi-Robot Pursuit–Evasion</a></li>
-  <li><a href="/portfolio/multirobot_pe/">Multi-Robot Pursuit–Evasion Environment</a></li>
-  <li><a href="/portfolio/planning_nn/">Planning Using Neural Networks</a></li>
-</ul>
-
-<hr/>
+<!-- Featured Research (none currently marked as featured) -->
+ <h2>🤖 Research Projects</h2>
+{% comment %} Add featured items here later if needed {% endcomment %}
 
 <h2>🤖 Robotics &amp; Control</h2>
-<ul>
-  <li><a href="/portfolio/moxi_modeling/">Moxi Robot Modeling</a></li>
-  <li><a href="/portfolio/multi_arm_control_simulation/">3-Arm Planning &amp; Control</a></li>
-  <li><a href="/portfolio/swarm_warehouse/">Swarm Robotics for Warehousing</a></li>
-  <li><a href="/portfolio/vaccine_robot/">Vaccine Delivery Robot</a></li>
-  <li><a href="/portfolio/yahboom_ros/">Yahboom ROS Robot</a></li>
-</ul>
+{% assign robotics = site.portfolio | where: "category", "robotics" %}
+<div class="grid__wrapper">
+  {% for post in robotics %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
 
 <hr/>
 
 <h2>🧠 Reinforcement Learning &amp; AI</h2>
-<ul>
-  <li><a href="/portfolio/ppo_trpo/">PPO vs TRPO Analysis</a></li>
-  <li><a href="/portfolio/cmsc742_rl/">CMSC742 Advanced RL</a></li>
-  <li><a href="/portfolio/adversarial_rl/">Adversarial RL</a></li>
-  <li><a href="/portfolio/nn_planning/">NN-Based Path Planning</a></li>
-</ul>
+{% assign rl = site.portfolio | where: "category", "rl" %}
+<div class="grid__wrapper">
+  {% for post in rl %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
 
 <hr/>
 
 <h2>👁️ Computer Vision</h2>
-<ul>
-  <li><a href="/portfolio/optical_flow/">Optical Flow</a></li>
-  <li><a href="/portfolio/ar_tag/">AR Tag Detection</a></li>
-  <li><a href="/portfolio/cv_misc/">CV Coursework</a></li>
-</ul>
+{% assign vision = site.portfolio | where: "category", "vision" %}
+<div class="grid__wrapper">
+  {% for post in vision %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
 
 <hr/>
 
 <h2>💻 Systems / C++</h2>
-<ul>
-  <li><a href="/portfolio/minimouse/">Minimouse Robot (C++)</a></li>
-</ul>
+{% assign systems = site.portfolio | where: "category", "systems" %}
+<div class="grid__wrapper">
+  {% for post in systems %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
 
 <hr/>
 
-{% include base_path %}
-
-<!-- {% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %} -->
